@@ -5,10 +5,7 @@
 }
 @media screen and (max-width: 767px) {
     .footer {
-        display: flex;
         flex-direction: column;
-        justify-content: space-between;
         align-items: flex-start;
-        min-height: 310px;
     }
 }
