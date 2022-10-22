@@ -1,7 +1,7 @@
 .cover__link {
     display: grid;
     width: 100%;
-    min-height: 62.5vw;
+    min-height: 740px;
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
     background-position: center;
@@ -22,4 +22,9 @@
 .cover__link:hover::before {
     transition: opacity 0.2s;
     opacity: 0.8;
+}
+@media screen and (max-width: 1023px) {
+    .cover__link {
+        min-height: 62.5vw;
+    }
 }
